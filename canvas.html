@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="canvas.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <progress id="progress" max="20"></progress>
+    <div id='scoreCover'><span>Score: </span> <span id="scoreEl">0</span></div>
+    <p id="skillAnnouncement"></p>
+    <div id="model">
+        <div id="innerBoard">
+            <h1 id='totalScore'><b>0</b></h1>
+            <p id="point">Points</p>
+            <div>
+            <button id="startGame">Start Game</button>
+            </div>
+        </div>
+    </div>
+    <canvas></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+#scoreCover{
+    position: fixed;
+    color: white;   
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 5px;
+    user-select: none;
+}
+#model{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+#innerBoard{
+    background-color: white;
+    font-size: large;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    text-align: center;
+}
+#totalScore{
+    font-size: 40px;
+    line-height: 40px;
+    line-height: 1;
+}
+#point{
+    font-size: small;
+    color: gray;
+    margin-bottom: 20px;
+}
+#startGame{
+    background-color: #3b82f6;
+    color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 9999px;
+    font-size: small;
+}
+#progress{
+    -webkit-appearance: none;
+    position: fixed;
+    margin-left: 1350px;
+    margin-top: 10px;
+    border: 1px solid #00FF00;
+    user-select: none;
+}
+#skillAnnouncement{
+    color: white;
+    border: black;
+    border-style: ridge;
+    position: fixed;
+    width: 180px;
+    height: 30px;
+    margin-left: 1350px;
+    margin-top: 30px;
+    user-select: none;
+}
