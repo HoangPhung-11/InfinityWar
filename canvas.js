@@ -139,7 +139,7 @@ function spawnEnemies() {
         }
 
         enemies.push(new Enemy(x, y, radius, color, velocity))
-    }, Math.random() * (2000-300) + 300)
+    }, Math.random() * (3000-500) + 500)
 
 }
 let score = 0
